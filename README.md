@@ -192,47 +192,10 @@ const akash: Developer = {
 ## 🐍 My Contributions Get Devoured
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-contribution-grid-snake.svg">
-    <img alt="github-snake" src="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+
+![snake gif](https://github.com/akashmishra8532/akashmishra8532/blob/output/github-contribution-grid-snake.svg)
+
 </div>
-
-<details>
-<summary>⚙️ <b>Click here to enable the snake animation</b></summary>
-
-Create this file at `.github/workflows/snake.yml` in your profile repo:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then go to **Actions → Generate Snake → Run workflow** to trigger it once.
-
-</details>
 
 <br/>
 
