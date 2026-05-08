@@ -193,7 +193,7 @@ const akash: Developer = {
 
 <div align="center">
 
-![snake gif](https://github.com/akashmishra8532/akashmishra8532/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/akashmishra8532/akashmishra8532/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
