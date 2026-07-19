@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" width="720" height="200">
+  <defs>
+    <clipPath id="cardClip"><rect x="0" y="0" width="720" height="200" rx="16"/></clipPath>
+    <clipPath id="cellClip0"><rect x="6.0" y="42" width="108" height="128" rx="12"/></clipPath><clipPath id="cellClip1"><rect x="126.0" y="42" width="108" height="128" rx="12"/></clipPath><clipPath id="cellClip2"><rect x="246.0" y="42" width="108" height="128" rx="12"/></clipPath><clipPath id="cellClip3"><rect x="366.0" y="42" width="108" height="128" rx="12"/></clipPath><clipPath id="cellClip4"><rect x="486.0" y="42" width="108" height="128" rx="12"/></clipPath><clipPath id="cellClip5"><rect x="606.0" y="42" width="108" height="128" rx="12"/></clipPath>
+    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'Courier New', ui-monospace, Consolas, monospace; }
+  </style>
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="720" height="200" fill="#150a20"/>
+    <text x="20" y="24" class="sans" font-size="14.5" font-weight="700" fill="#f5e6ff">Trophy Case</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.25s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.95;1" keyTimes="0;0.55;0.8;1" dur="0.5s" begin="0.25s" fill="freeze" additive="sum"/>
+      <rect x="6.0" y="42.0" width="108" height="128" rx="12" fill="rgba(255,255,255,0.05)" stroke="#ff6ec7" stroke-width="1.3" opacity="0.8"/>
+
+      <!-- trophy cup icon -->
+      <g transform="translate(60.0 82.0)">
+        <path d="M -16 -14 L 16 -14 L 13 6 C 13 14 7 19 0 19 C -7 19 -13 14 -13 6 Z" fill="none" stroke="#ff6ec7" stroke-width="2.4"/>
+        <path d="M -16 -12 C -26 -12 -26 2 -14 4" fill="none" stroke="#ff6ec7" stroke-width="2.2"/>
+        <path d="M 16 -12 C 26 -12 26 2 14 4" fill="none" stroke="#ff6ec7" stroke-width="2.2"/>
+        <line x1="0" y1="19" x2="0" y2="27" stroke="#ff6ec7" stroke-width="2.4"/>
+        <line x1="-11" y1="27" x2="11" y2="27" stroke="#ff6ec7" stroke-width="2.4"/>
+        <circle cx="0" cy="-1" r="5" fill="#ff6ec7" opacity="0.85"/>
+      </g>
+
+      <text x="60.0" y="134" text-anchor="middle" class="sans" font-size="11.5" fill="#b9a6d6">Commits</text>
+      <text x="60.0" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="800" fill="#ff6ec7">A
+        <animate attributeName="opacity" values="0.4;1;0.4;1" dur="1.6s" begin="0.85s" repeatCount="2"/>
+      </text>
+
+      <!-- shine sweep per cell -->
+      <g clip-path="url(#cellClip0)">
+        <rect x="-102.0" y="42.0" width="54.0" height="128" fill="url(#shineGrad)" transform="rotate(20 60.0 106.0)">
+          <animate attributeName="x" values="-145.2;157.2" dur="2.6s" begin="1.15s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.41s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.95;1" keyTimes="0;0.55;0.8;1" dur="0.5s" begin="0.41s" fill="freeze" additive="sum"/>
+      <rect x="126.0" y="42.0" width="108" height="128" rx="12" fill="rgba(255,255,255,0.05)" stroke="#ffd166" stroke-width="1.3" opacity="0.8"/>
+
+      <!-- trophy cup icon -->
+      <g transform="translate(180.0 82.0)">
+        <path d="M -16 -14 L 16 -14 L 13 6 C 13 14 7 19 0 19 C -7 19 -13 14 -13 6 Z" fill="none" stroke="#ffd166" stroke-width="2.4"/>
+        <path d="M -16 -12 C -26 -12 -26 2 -14 4" fill="none" stroke="#ffd166" stroke-width="2.2"/>
+        <path d="M 16 -12 C 26 -12 26 2 14 4" fill="none" stroke="#ffd166" stroke-width="2.2"/>
+        <line x1="0" y1="19" x2="0" y2="27" stroke="#ffd166" stroke-width="2.4"/>
+        <line x1="-11" y1="27" x2="11" y2="27" stroke="#ffd166" stroke-width="2.4"/>
+        <circle cx="0" cy="-1" r="5" fill="#ffd166" opacity="0.85"/>
+      </g>
+
+      <text x="180.0" y="134" text-anchor="middle" class="sans" font-size="11.5" fill="#b9a6d6">Repositories</text>
+      <text x="180.0" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="800" fill="#ffd166">A+
+        <animate attributeName="opacity" values="0.4;1;0.4;1" dur="1.6s" begin="1.01s" repeatCount="2"/>
+      </text>
+
+      <!-- shine sweep per cell -->
+      <g clip-path="url(#cellClip1)">
+        <rect x="18.0" y="42.0" width="54.0" height="128" fill="url(#shineGrad)" transform="rotate(20 180.0 106.0)">
+          <animate attributeName="x" values="-25.2;277.2" dur="2.6s" begin="1.31s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.57s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.95;1" keyTimes="0;0.55;0.8;1" dur="0.5s" begin="0.57s" fill="freeze" additive="sum"/>
+      <rect x="246.0" y="42.0" width="108" height="128" rx="12" fill="rgba(255,255,255,0.05)" stroke="#c471ed" stroke-width="1.3" opacity="0.8"/>
+
+      <!-- trophy cup icon -->
+      <g transform="translate(300.0 82.0)">
+        <path d="M -16 -14 L 16 -14 L 13 6 C 13 14 7 19 0 19 C -7 19 -13 14 -13 6 Z" fill="none" stroke="#c471ed" stroke-width="2.4"/>
+        <path d="M -16 -12 C -26 -12 -26 2 -14 4" fill="none" stroke="#c471ed" stroke-width="2.2"/>
+        <path d="M 16 -12 C 26 -12 26 2 14 4" fill="none" stroke="#c471ed" stroke-width="2.2"/>
+        <line x1="0" y1="19" x2="0" y2="27" stroke="#c471ed" stroke-width="2.4"/>
+        <line x1="-11" y1="27" x2="11" y2="27" stroke="#c471ed" stroke-width="2.4"/>
+        <circle cx="0" cy="-1" r="5" fill="#c471ed" opacity="0.85"/>
+      </g>
+
+      <text x="300.0" y="134" text-anchor="middle" class="sans" font-size="11.5" fill="#b9a6d6">Followers</text>
+      <text x="300.0" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="800" fill="#c471ed">B+
+        <animate attributeName="opacity" values="0.4;1;0.4;1" dur="1.6s" begin="1.17s" repeatCount="2"/>
+      </text>
+
+      <!-- shine sweep per cell -->
+      <g clip-path="url(#cellClip2)">
+        <rect x="138.0" y="42.0" width="54.0" height="128" fill="url(#shineGrad)" transform="rotate(20 300.0 106.0)">
+          <animate attributeName="x" values="94.8;397.2" dur="2.6s" begin="1.47s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.73s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.95;1" keyTimes="0;0.55;0.8;1" dur="0.5s" begin="0.73s" fill="freeze" additive="sum"/>
+      <rect x="366.0" y="42.0" width="108" height="128" rx="12" fill="rgba(255,255,255,0.05)" stroke="#7b2ff7" stroke-width="1.3" opacity="0.8"/>
+
+      <!-- trophy cup icon -->
+      <g transform="translate(420.0 82.0)">
+        <path d="M -16 -14 L 16 -14 L 13 6 C 13 14 7 19 0 19 C -7 19 -13 14 -13 6 Z" fill="none" stroke="#7b2ff7" stroke-width="2.4"/>
+        <path d="M -16 -12 C -26 -12 -26 2 -14 4" fill="none" stroke="#7b2ff7" stroke-width="2.2"/>
+        <path d="M 16 -12 C 26 -12 26 2 14 4" fill="none" stroke="#7b2ff7" stroke-width="2.2"/>
+        <line x1="0" y1="19" x2="0" y2="27" stroke="#7b2ff7" stroke-width="2.4"/>
+        <line x1="-11" y1="27" x2="11" y2="27" stroke="#7b2ff7" stroke-width="2.4"/>
+        <circle cx="0" cy="-1" r="5" fill="#7b2ff7" opacity="0.85"/>
+      </g>
+
+      <text x="420.0" y="134" text-anchor="middle" class="sans" font-size="11.5" fill="#b9a6d6">Stars</text>
+      <text x="420.0" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="800" fill="#7b2ff7">A
+        <animate attributeName="opacity" values="0.4;1;0.4;1" dur="1.6s" begin="1.33s" repeatCount="2"/>
+      </text>
+
+      <!-- shine sweep per cell -->
+      <g clip-path="url(#cellClip3)">
+        <rect x="258.0" y="42.0" width="54.0" height="128" fill="url(#shineGrad)" transform="rotate(20 420.0 106.0)">
+          <animate attributeName="x" values="214.8;517.2" dur="2.6s" begin="1.63s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.89s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.95;1" keyTimes="0;0.55;0.8;1" dur="0.5s" begin="0.89s" fill="freeze" additive="sum"/>
+      <rect x="486.0" y="42.0" width="108" height="128" rx="12" fill="rgba(255,255,255,0.05)" stroke="#4cc9f0" stroke-width="1.3" opacity="0.8"/>
+
+      <!-- trophy cup icon -->
+      <g transform="translate(540.0 82.0)">
+        <path d="M -16 -14 L 16 -14 L 13 6 C 13 14 7 19 0 19 C -7 19 -13 14 -13 6 Z" fill="none" stroke="#4cc9f0" stroke-width="2.4"/>
+        <path d="M -16 -12 C -26 -12 -26 2 -14 4" fill="none" stroke="#4cc9f0" stroke-width="2.2"/>
+        <path d="M 16 -12 C 26 -12 26 2 14 4" fill="none" stroke="#4cc9f0" stroke-width="2.2"/>
+        <line x1="0" y1="19" x2="0" y2="27" stroke="#4cc9f0" stroke-width="2.4"/>
+        <line x1="-11" y1="27" x2="11" y2="27" stroke="#4cc9f0" stroke-width="2.4"/>
+        <circle cx="0" cy="-1" r="5" fill="#4cc9f0" opacity="0.85"/>
+      </g>
+
+      <text x="540.0" y="134" text-anchor="middle" class="sans" font-size="11.5" fill="#b9a6d6">PRs Merged</text>
+      <text x="540.0" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="800" fill="#4cc9f0">A
+        <animate attributeName="opacity" values="0.4;1;0.4;1" dur="1.6s" begin="1.49s" repeatCount="2"/>
+      </text>
+
+      <!-- shine sweep per cell -->
+      <g clip-path="url(#cellClip4)">
+        <rect x="378.0" y="42.0" width="54.0" height="128" fill="url(#shineGrad)" transform="rotate(20 540.0 106.0)">
+          <animate attributeName="x" values="334.8;637.2" dur="2.6s" begin="1.79s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.05s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.95;1" keyTimes="0;0.55;0.8;1" dur="0.5s" begin="1.05s" fill="freeze" additive="sum"/>
+      <rect x="606.0" y="42.0" width="108" height="128" rx="12" fill="rgba(255,255,255,0.05)" stroke="#ff4f8b" stroke-width="1.3" opacity="0.8"/>
+
+      <!-- trophy cup icon -->
+      <g transform="translate(660.0 82.0)">
+        <path d="M -16 -14 L 16 -14 L 13 6 C 13 14 7 19 0 19 C -7 19 -13 14 -13 6 Z" fill="none" stroke="#ff4f8b" stroke-width="2.4"/>
+        <path d="M -16 -12 C -26 -12 -26 2 -14 4" fill="none" stroke="#ff4f8b" stroke-width="2.2"/>
+        <path d="M 16 -12 C 26 -12 26 2 14 4" fill="none" stroke="#ff4f8b" stroke-width="2.2"/>
+        <line x1="0" y1="19" x2="0" y2="27" stroke="#ff4f8b" stroke-width="2.4"/>
+        <line x1="-11" y1="27" x2="11" y2="27" stroke="#ff4f8b" stroke-width="2.4"/>
+        <circle cx="0" cy="-1" r="5" fill="#ff4f8b" opacity="0.85"/>
+      </g>
+
+      <text x="660.0" y="134" text-anchor="middle" class="sans" font-size="11.5" fill="#b9a6d6">Experience</text>
+      <text x="660.0" y="156" text-anchor="middle" class="mono" font-size="17" font-weight="800" fill="#ff4f8b">S
+        <animate attributeName="opacity" values="0.4;1;0.4;1" dur="1.6s" begin="1.65s" repeatCount="2"/>
+      </text>
+
+      <!-- shine sweep per cell -->
+      <g clip-path="url(#cellClip5)">
+        <rect x="498.0" y="42.0" width="54.0" height="128" fill="url(#shineGrad)" transform="rotate(20 660.0 106.0)">
+          <animate attributeName="x" values="454.8;757.2" dur="2.6s" begin="1.95s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="718" height="198" rx="15" fill="none" stroke="#c471ed" stroke-width="1.2" opacity="0.6"/>
+</svg>
