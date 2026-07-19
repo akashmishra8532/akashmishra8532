@@ -1,265 +1,128 @@
 <div align="center">
 
-<!-- ANIMATED HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Akash%20Mishra&fontSize=70&fontColor=a78bfa&animation=twinkling&fontAlignY=40&desc=Full-Stack%20Developer%20%7C%20Problem%20Solver%20%7C%20Builder&descSize=18&descAlignY=62&descColor=c4b5fd&stroke=6366f1&strokeWidth=2" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Akash Mishra — Full-Stack Developer" src="banner.svg?v=1" width="100%">
+</picture>
 
-<!-- ANIMATED TYPING -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&random=false&width=620&height=50&lines=const+dev+%3D+new+AkashMishra()%3B;dev.build(%22full-stack+apps%22)%3B;dev.solve(%22complex+problems%22)%3B;dev.learn(%22every+single+day%22)%3B;%2F%2F+Always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+<br><br>
 
-<br/><br/>
+<img src="lanyard.svg?v=1" alt="Akash Mishra ID badge" width="220">
 
-<!-- SOCIAL BADGES -->
-<a href="https://linkedin.com/in/akashmishra14"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:akashmishra0389@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://leetcode.com/akashmishra2003"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
-<a href="https://instagram.com/priyanshumishra2003"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-<a href="https://stackoverflow.com/users/20912252"><img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"/></a>
+<br><br>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=akashmishra8532&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" />
-&nbsp;
-<img src="https://img.shields.io/github/followers/akashmishra8532?style=for-the-badge&color=6366f1&label=FOLLOWERS" />
-&nbsp;
-<img src="https://img.shields.io/badge/Status-Open_to_Work-brightgreen?style=for-the-badge" />
+<a href="https://github.com/akashmishra8532"><img src="https://img.shields.io/badge/GitHub-akashmishra8532-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://linkedin.com/in/akashmishra14"><img src="https://img.shields.io/badge/LinkedIn-akashmishra14-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:akashmishra0389@gmail.com"><img src="https://img.shields.io/badge/Email-akashmishra0389%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<img src="https://komarev.com/ghpvc/?username=akashmishra8532&color=c471ed&style=for-the-badge&label=Profile+Views" alt="Profile views">
 
 </div>
 
-<br/>
+<br>
 
----
+## 👋 About Me
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px"> &nbsp;whoami
+- 🎓 B.Tech in Computer Science Engineering, Lovely Professional University (2022 – 2026)
+- 💻 Full-stack developer focused on the **MERN** stack (MongoDB, Express.js, React.js, Node.js), with Java + SQL backend experience
+- 🛠️ Delivered RESTful APIs, JWT authentication, and role-based access control across three independent full-stack projects and a two-month internship
+- 📜 Certified in **IBM DevOps and Software Engineering** (Coursera) and **Cloud Computing** (NPTEL, IIT Kharagpur)
+- 🌱 Currently exploring Docker, CI/CD, and cloud deployment workflows
+- 🎯 Seeking an **entry-level Software Engineer** role — backend or full-stack
 
-```ts
-interface Developer {
-  name:         string;
-  location:     string;
-  currentFocus: string[];
-  skills:       string[];
-  dailyTools:   string[];
-  funFact:      string;
-}
+<br>
 
-const akash: Developer = {
-  name:         "Akash Mishra",
-  location:     "India 🇮🇳",
-  currentFocus: [
-    "Building production-grade full-stack apps",
-    "Mastering system design & DSA",
-    "Contributing to open source",
-  ],
-  skills:       ["React", "Node.js", "Python", "MongoDB", "Docker"],
-  dailyTools:   ["VS Code", "Git", "Postman", "Terminal"],
-  funFact:      "89% of my GitHub is Python — but I dream in JavaScript 😄",
-};
-
-// Open to: Collaborations · Internships · SDE Roles 🤝
-```
-
-<br/>
-
----
-
-## 📊 GitHub Analytics
+## 🧰 Tech Stack
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=akashmishra8532&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=a78bfa&icon_color=6366f1&text_color=c9d1d9&ring_color=6366f1"/>
-&nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashmishra8532&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9"/>
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akashmishra8532&theme=midnight-purple&hide_border=true&background=0d1117&ring=6366f1&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=8b949e&stroke=6366f1" height="175em"/>
-</div>
-
-<br/>
-
----
-
-## 🧠 Skills & Proficiency
-
-<div align="center">
-
-| Skill | Progress | Level |
-|:------|:---------|:-----:|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | `████████████████████` 95% | 🔥 Expert |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | `██████████████████░░` 88% | ⚡ Advanced |
-| ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) | `█████████████████░░░` 82% | ⚡ Advanced |
-| ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white) | `████████████████░░░░` 78% | ⚡ Advanced |
-| ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) | `███████████████░░░░░` 72% | 📈 Intermediate |
-| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | `████████████░░░░░░░░` 60% | 📈 Intermediate |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) | `██████████░░░░░░░░░░` 50% | 🌱 Learning |
-
-</div>
-
-<br/>
-
----
-
-## 🛠️ Complete Tech Arsenal
-
-<div align="center">
-
-### ⚡ Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### 🔧 Backend & APIs
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-### ⚙️ DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-### 💡 Core Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 </div>
 
-<br/>
+<br>
 
----
+## 📊 GitHub Stats
 
-## 🏅 Stats at a Glance
+<div align="center">
+<img src="stats.svg?v=1" alt="GitHub stats" width="48%">
+<img src="langs.svg?v=1" alt="Most used languages" width="48%">
+
+<br><br>
+
+<img src="trophies.svg?v=1" alt="Trophy case" width="80%">
+</div>
+
+> ℹ️ `stats.svg` and `langs.svg` hold placeholder numbers since they're static local files with no live backend — open each SVG in a text editor and swap in your real stats whenever you want to refresh them, so nothing here depends on a rate-limited third-party card service.
+
+<br>
+
+## 🐍 Contribution Activity
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/⭐_Stars_Earned-9-FFD700?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/💻_Total_Commits-107-4CAF50?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/🔥_Best_Streak-10_Days-FF5722?style=for-the-badge"/>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/📦_Contributions-268-6366F1?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/🔀_Pull_Requests-4-2196F3?style=for-the-badge"/>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/🌐_Repos_Contributed-2-9C27B0?style=for-the-badge"/>
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-snake-light.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-snake-dark.svg" width="100%">
+</picture>
 
 </div>
 
-<br/>
+> Generated daily by [`github-snake.yml`](github-snake.yml) via [Platane/snk](https://github.com/Platane/snk) — this **is** the real contribution graph, self-hosted on the `output` branch, so it isn't subject to third-party rate limits either.
 
----
+<br>
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=akashmishra8532&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" />
-</div>
-
-<br/>
-
----
-
-## 🐍 My Contributions Get Devoured
+## 🚀 Projects
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-contribution-grid-snake.svg" alt="snake gif" />
+| Project | Tech Stack | Highlights |
+|---|---|---|
+| **Real-Time Chat Application** | React, Node.js, Express, MongoDB, Socket.io, JWT, Tailwind | Live messaging, image sharing &amp; presence tracking over Socket.io, with JWT auth and MVC architecture |
+| **Instant Food Ordering Platform** | React, Context API, React Router, HTML5/CSS3 | Responsive SPA for cart/menu/checkout using Context API for global state instead of prop drilling |
+| **Doctor Appointment Booking System** | React, Node.js, Express, MySQL/MongoDB, JWT | Role-based booking flow for patients, doctors &amp; admins with real-time slot management |
 
 </div>
 
-<br/>
+<!-- Update the links above once each project is pushed to GitHub, e.g.
+     [Real-Time Chat Application](https://github.com/akashmishra8532/realtime-chat-app) -->
 
----
+<br>
 
-## 📈 Contribution Activity
+## 💼 Experience
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akashmishra8532&bg_color=0d1117&color=a78bfa&line=6366f1&point=ffffff&area=true&area_color=6366f133&hide_border=true&custom_title=Akash's%20Contribution%20Graph%202025" />
-</div>
+**Software Engineer Intern (Full Stack)** — Cipher Schools · *Jun 2024 – Jul 2024*
+Delivered a blogging platform end-to-end (design → deploy) with CRUD REST APIs, JWT auth on the MERN stack, unit tests across both layers, and Agile sprints with peer code review.
 
-<br/>
-
----
-
-## 🎯 2025 Roadmap
-
-```
- GOALS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  ✅  Build 5 full-stack projects (React + Node.js + MongoDB)
-  ✅  Master Docker & containerization basics
-  🔄  Learn TypeScript deeply              [▓▓▓▓▓▓░░░░]  60%
-  🔄  System Design fundamentals          [▓▓▓▓░░░░░░]  40%
-  🔄  Solve 100+ LeetCode problems        [▓▓▓░░░░░░░]  30%
-  ⏳  Land first SDE internship / role
-  ⏳  Contribute to 3+ open source repos
-  ⏳  Build & deploy a SaaS product
-
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-<br/>
-
----
-
-## 💬 Dev Quote of the Day
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</div>
-
-<br/>
-
----
+<br>
 
 <div align="center">
 
-### 🤝 Let's Build Something Amazing Together
+<img src="https://raw.githubusercontent.com/akashmishra8532/akashmishra8532/output/github-snake-dark.svg" alt="" height="1" width="1">
 
-*Open to collaborations, internships, and exciting SDE opportunities*
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akashmishra14)
-&nbsp;
-[![Email](https://img.shields.io/badge/Drop_a_Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashmishra0389@gmail.com)
-
-<br/>
-
-⭐ **If you find my work useful, consider starring my repos — it means a lot!** ⭐
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=130&section=footer&text=Happy+Coding!&fontSize=26&fontColor=a78bfa&animation=twinkling&fontAlignY=72" />
+*Thanks for stopping by — always happy to connect!* 💌
 
 </div>
+
+<!--
+  Setup notes:
+  1. Place banner.svg, banner-light.svg, lanyard.svg, stats.svg, langs.svg,
+     and trophies.svg in the same folder as this README (repo root works fine).
+  2. Bump the ?v=1 query string on any file you regenerate, so GitHub's
+     image cache (camo) picks up the new version instead of serving a stale one.
+  3. This README assumes the special akashmishra8532/akashmishra8532 profile
+     repo. Add .github/workflows/github-snake.yml (included) and run it once
+     manually from the Actions tab to create the `output` branch.
+  4. All animations use SMIL/CSS only (no <script>), since GitHub strips
+     JavaScript from rendered SVGs/READMEs.
+-->
