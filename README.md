@@ -44,7 +44,8 @@
 ```ts
 interface Developer {
   name:         string;
-  location:     string;
+  home-town:     string;
+  current location:     string;
   currentFocus: string[];
   skills:       string[];
   dailyTools:   string[];
@@ -53,7 +54,8 @@ interface Developer {
 
 const akash: Developer = {
   name:         "Akash Mishra",
-  location:     "Ghaziabad, India 🇮🇳",
+  home-town:     "Gorakhpur, Uttar Pradesh, India 🇮🇳",
+  current-location:     "Noida, Uttar Pradesh, India 🇮🇳",
   currentFocus: [
     "Shipping full-stack MERN projects end-to-end",
     "Sharpening DSA & system design fundamentals",
