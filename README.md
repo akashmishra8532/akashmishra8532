@@ -43,27 +43,27 @@
 
 ```ts
 interface Developer {
-  name:         string;
-  home-town:     string;
+  name:                 string;
+  home-town:            string;
   current location:     string;
-  currentFocus: string[];
-  skills:       string[];
-  dailyTools:   string[];
-  funFact:      string;
+  currentFocus:         string[];
+  skills:               string[];
+  dailyTools:           string[];
+  funFact:              string;
 }
 
 const akash: Developer = {
-  name:         "Akash Mishra",
-  home-town:     "Gorakhpur, Uttar Pradesh, India 🇮🇳",
+  name:                 "Akash Mishra",
+  home-town:            "Gorakhpur, Uttar Pradesh, India 🇮🇳",
   current-location:     "Noida, Uttar Pradesh, India 🇮🇳",
   currentFocus: [
     "Shipping full-stack MERN projects end-to-end",
     "Sharpening DSA & system design fundamentals",
     "Learning Docker & CI/CD pipelines",
   ],
-  skills:       ["Java", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "MySQL"],
-  dailyTools:   ["VS Code", "Git", "Postman", "Docker"],
-  funFact:      "My coffee cup literally says 'Code. Coffee. Repeat.' — it's basically a life motto now 😄",
+  skills:               ["Java", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "MySQL"],
+  dailyTools:           ["VS Code", "Git", "Postman", "Docker"],
+  funFact:              "My coffee cup literally says 'Code. Coffee. Repeat.' — it's basically a life motto now 😄",
 };
 
 // Open to: Internships · SDE Roles · Collaborations 🤝
